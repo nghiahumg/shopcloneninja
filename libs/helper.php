@@ -1005,9 +1005,9 @@ function getRowRealtime($table, $id, $row)
 
 function get_url(){
     if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on'){
-        $url = "https://"; 
+        $url = "http://sellclone123.pro"; 
     }else {
-        $url = "http://";
+        $url = "http://sellclone123.pro";
     }         
     $url.= $_SERVER['HTTP_HOST'];   
     $url.= $_SERVER['REQUEST_URI'];    
