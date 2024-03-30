@@ -148,8 +148,8 @@ function display_invoice($status)
 function base_url_admin($url = '')
 {
     $a = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER["HTTP_HOST"];
-    if ($a == 'http://sellclone123.pro') {
-        $a = 'http://sellclone123.pro';
+    if ($a == 'https://sellclone123.pro') {
+        $a = 'https://sellclone123.pro';
     }
     return $a.'?module=admin&action='.$url;
 }
@@ -1005,7 +1005,7 @@ function getRowRealtime($table, $id, $row)
 
 function get_url(){
     if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on'){
-        $url = "http://sellclone123.pro"; 
+        $url = "https://sellclone123.pro"; 
     }else {
         $url = "http://sellclone123.pro";
     }         
@@ -1018,8 +1018,8 @@ function base_url($url = '')
 {
     global $domain_block;
     $a = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER["HTTP_HOST"];
-    if ($a == 'http://sellclone123.pro') {
-        $a = 'http://sellclone123.pro';
+    if ($a == 'https://sellclone123.pro') {
+        $a = 'https://sellclone123.pro';
     }
     // foreach($domain_block as $domain){
     //     if($domain == $_SERVER['HTTP_HOST']){
